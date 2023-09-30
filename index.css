@@ -1,0 +1,39 @@
+.titulo1{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    animation: animacion 10s ease-out none infinite alternate;
+}
+
+@keyframes animacion{
+    0%{
+        color: red;
+    }
+    25%{
+        color: rgb(155, 155, 155);
+    }
+    50%{
+        color: chocolate;
+    }
+    75%{
+        color: rgb(190, 230, 13);
+    }
+    100%{
+        color: blanchedalmond;
+    }
+}
+
+.parrafo{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.imagen-footer{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
